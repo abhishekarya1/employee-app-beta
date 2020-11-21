@@ -9,7 +9,7 @@ In the virtual environment:
 ```
 2. Install `gunicorn`
 ```
-(venv) $ pip install gunicorn
+(venv) $ pipenv install gunicorn
 ```
 3. Generate `requirements.txt`
 ```
