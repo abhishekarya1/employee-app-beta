@@ -21,6 +21,11 @@ Place `requirements.txt` in the root folder containing the `Procfile`.
 ```
 web: gunicorn appfoldername:app
 ```
+OR
+```
+web: gunicorn wsgi:app
+```
+(Not tested)
 5. Add `wsgi.py`
 ```
 from appfoldername import app
