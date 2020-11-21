@@ -41,4 +41,5 @@ $ heroku login -i
 (venv) $ heroku logs --app appName --tail
 ```
 
-⚠️ **Fair Warning:** sqlite is not intended to use in a production environment and hence not suited for deploying to Heroku. More here: https://devcenter.heroku.com/articles/sqlite3
+⚠️ **Fair Warning:** sqlite is not intended to use in a production environment and hence not suited for deploying to Heroku. 
+<br>More here: https://devcenter.heroku.com/articles/sqlite3
