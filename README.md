@@ -16,8 +16,9 @@ In the virtual environment:
 (venv) $ pip freeze > requirements.txt
 ```
 Place `requirements.txt` in the root folder containing the `Procfile`.
-3. Rename manifest to `__init__` 
-4. Add `Procfile`
+
+4. Rename manifest to `__init__` 
+5. Add `Procfile`
 ```
 web: gunicorn appfoldername:app
 ```
@@ -27,13 +28,13 @@ web: gunicorn wsgi:app
 ```
 (Not tested)
 
-5. Add `wsgi.py`
+6. Add `wsgi.py`
 ```
 from appfoldername import app
 if __name__ == "__main__":
   app.run()
 ```
-6. Viewing real-time Heroku log
+7. Viewing real-time Heroku log
 ```
 $ heroku login -i
 
