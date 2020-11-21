@@ -1,4 +1,4 @@
-## Heroku Deployment Repository for simple Flask CRUD webapp
+## Heroku Deployment Repository 🚀
 for [this](https://github.com/abhishekarya1/EMS-Flask-CRUD-Webapp), deployed here: https://ems-beta.herokuapp.com  
 
 ### Steps to Deploy
